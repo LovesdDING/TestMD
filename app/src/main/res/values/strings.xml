@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestMD</string>
+    <string name="fab_bahavior">patient.yilin.com.testmd.FabBehavior</string>
 </resources>

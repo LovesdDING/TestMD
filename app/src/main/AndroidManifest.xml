@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestRec2fabActivity"></activity>
+        <activity android:name=".TestRec2fabActivity" />
+        <activity android:name=".parallel.TestparellelActivity"></activity>
     </application>
 
 </manifest>

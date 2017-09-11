@@ -29,15 +29,15 @@ public class TestRec2fabActivity extends AppCompatActivity implements HideScrool
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test_rec2fab);
+        setContentView(R.layout.activity_test_rec2fab2);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recy1);
-        fab = (FloatingActionButton) findViewById(R.id.fab);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        recyclerView = (RecyclerView) findViewById(R.id.recy2);
+        fab = (FloatingActionButton) findViewById(R.id.fab2);
+        toolbar = (Toolbar) findViewById(R.id.toolbar2);
 
         setSupportActionBar(toolbar);
         setTitle("中华好担当");
-        recyclerView.addOnScrollListener(new FabOnScrollListener(this));
+//        recyclerView.addOnScrollListener(new FabOnScrollListener(this));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         for (int i = 0; i < 40; i++) {
