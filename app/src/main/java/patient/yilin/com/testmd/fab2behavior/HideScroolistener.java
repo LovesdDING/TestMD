@@ -1,4 +1,4 @@
-package patient.yilin.com.testmd;
+package patient.yilin.com.testmd.fab2behavior;
 
 /**
  * 定义 fab  隐藏 显示的 接口 方便进行动画

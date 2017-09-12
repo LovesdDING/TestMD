@@ -1,4 +1,4 @@
-package patient.yilin.com.testmd;
+package patient.yilin.com.testmd.fab2behavior;
 
 import android.support.v7.widget.RecyclerView;
 

@@ -1,20 +1,22 @@
-package patient.yilin.com.testmd;
+package patient.yilin.com.testmd.fab2behavior;
 
+import android.support.design.widget.BaseTransientBottomBar;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.ViewGroup;
+import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
-import android.view.animation.Interpolator;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import patient.yilin.com.testmd.R;
 
 public class TestRec2fabActivity extends AppCompatActivity implements HideScroolistener{
 
@@ -45,6 +47,16 @@ public class TestRec2fabActivity extends AppCompatActivity implements HideScrool
         }
         adapter = new FabRecyAdapter(datas)  ;
         recyclerView.setAdapter(adapter);
+
+        //  这里设置 fab的点击事件 根布局是使用relativelayout  这些 ，点击的时候  弹出snackbar  但是会覆盖到fab的一部分
+        //如果 根布局是使用 的coordinatorlayout   点击弹出snackbar  不会覆盖fab  效果很赞。平滑上移
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar snackbar = Snackbar.make(v,"天亮了", BaseTransientBottomBar.LENGTH_SHORT) ;
+                snackbar.show();
+            }
+        });
     }
 
     @Override

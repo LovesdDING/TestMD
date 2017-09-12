@@ -15,8 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestRec2fabActivity" />
-        <activity android:name=".parallel.TestparellelActivity"></activity>
+        <activity android:name=".fab2behavior.TestRec2fabActivity" />
+        <activity android:name=".parallel.TestparellelActivity" />
+        <activity android:name=".mdcoordinatorlayout2appbarlayout.TestCoordinatorLayout2AppBarLayoutActivity" />
+        <activity android:name=".viewpager_appbarlayout_tablayout.TestTabActivity" />
+        <activity android:name=".viewpager_appbarlayout_tablayout.TestTab2Activity"></activity>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="patient.yilin.com.testmd.TestRec2fabActivity"
+    tools:context="patient.yilin.com.testmd.fab2behavior.TestRec2fabActivity"
      >
 
 <!--CoordinatorLayout＋recyclerView +fab -->
@@ -13,18 +13,32 @@
         android:clipChildren="false"
         android:paddingTop="?attr/actionBarSize"
         否则 toolbar  会覆盖部分recyclerview的内容
+
+        默认的behavior
+          app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
         -->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recy2"
         android:clipToPadding="false"
         android:clipChildren="false"
-        android:paddingTop="?attr/actionBarSize"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
 
     </android.support.v7.widget.RecyclerView>
-    <android.support.v7.widget.Toolbar
+    <!--AppBar  包裹toolBar  替代actionbar
+        便于控制toolBar的动画效果实现
 
+          app:layout_scrollFlags="enterAlways"
+
+    -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    <android.support.v7.widget.Toolbar
+        app:layout_scrollFlags="scroll"
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -32,10 +46,11 @@
         >
 
     </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
     <!--behavior  监听回调事件  谁需要监听 就给谁 设置behavior-->
 
     <android.support.design.widget.FloatingActionButton
-        app:layout_behavior=".FabBehavior"
+        app:layout_behavior="patient.yilin.com.testmd.fab2behavior.FabBehavior"
         android:id="@+id/fab2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

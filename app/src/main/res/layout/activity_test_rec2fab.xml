@@ -4,7 +4,7 @@
     android:id="@+id/activity_test_rec2fab"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="patient.yilin.com.testmd.TestRec2fabActivity">
+    tools:context="patient.yilin.com.testmd.fab2behavior.TestRec2fabActivity">
 
 
     <!--使用 toolbar的时候一定要注意 在其下的布局中 使用     android:clipToPadding="false"

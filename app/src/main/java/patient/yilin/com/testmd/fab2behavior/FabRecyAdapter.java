@@ -1,4 +1,4 @@
-package patient.yilin.com.testmd;
+package patient.yilin.com.testmd.fab2behavior;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.List;
+
+import patient.yilin.com.testmd.R;
 
 /**
  * Created by Administrator on 2017/9/8.
