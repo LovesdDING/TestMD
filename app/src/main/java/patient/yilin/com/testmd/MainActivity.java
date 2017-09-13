@@ -9,6 +9,8 @@ import patient.yilin.com.testmd.fab2behavior.TestRec2fabActivity;
 import patient.yilin.com.testmd.parallel.TestparellelActivity;
 import patient.yilin.com.testmd.viewpager_appbarlayout_tablayout.TestTab2Activity;
 import patient.yilin.com.testmd.viewpager_appbarlayout_tablayout.TestTabActivity;
+import patient.yilin.com.testmd.zdybehavior.TestBehavior1Activity;
+import patient.yilin.com.testmd.zdybehavior.TestBehavior2Activity;
 
 /**
  * TestMD   新特性的使用 即源码分析
@@ -48,6 +50,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,TestTabActivity.class));
             }
         });
-
+        findViewById(R.id.btn4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,TestBehavior1Activity.class));
+            }
+        });
+        findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,TestBehavior2Activity.class));
+            }
+        });
     }
 }

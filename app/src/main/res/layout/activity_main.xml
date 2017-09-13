@@ -40,6 +40,18 @@
                 android:layout_height="wrap_content"
                 android:text="tablayou+viewpager+Appbarlayout"
                 />
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="自定义behavior1"
+                />
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="自定义behavior2"
+                />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

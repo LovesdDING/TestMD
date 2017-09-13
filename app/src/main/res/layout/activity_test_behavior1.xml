@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_test_behavior1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="patient.yilin.com.testmd.zdybehavior.TestBehavior1Activity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0"
+        android:text="被观察"
+        android:gravity="left|top"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        app:layout_behavior="patient.yilin.com.testmd.zdybehavior.CustomBehavior"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f00"
+        android:text="观察者"
+        android:layout_gravity="right|top"
+        />
+</android.support.design.widget.CoordinatorLayout>
