@@ -116,7 +116,7 @@ public class TestPropertyAnimaActivity extends AppCompatActivity {
 //        });
 //        va.start();
 
-
+    //
         //方法 3：  propertyValuesHolder
 //        PropertyValuesHolder  holder1 = PropertyValuesHolder.ofFloat("alpha",1f,0.3f,1f) ;
 //        PropertyValuesHolder holder2 = PropertyValuesHolder.ofFloat("scaleX",1f,0.5f,1f) ;
