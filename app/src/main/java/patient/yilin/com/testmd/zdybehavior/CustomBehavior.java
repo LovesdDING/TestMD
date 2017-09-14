@@ -36,10 +36,6 @@ public class CustomBehavior extends CoordinatorLayout.Behavior<View>{
     /**
      * 当被监听的view  发生改变的时候 回调
      * 可以在此方法里做一些相应的联动动画等效果。
-     * @param parent
-     * @param child
-     * @param dependency
-     * @return
      */
     @Override
     public boolean onDependentViewChanged(CoordinatorLayout parent, View child, View dependency) {

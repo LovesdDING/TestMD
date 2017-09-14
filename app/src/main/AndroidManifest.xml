@@ -21,7 +21,8 @@
         <activity android:name=".viewpager_appbarlayout_tablayout.TestTabActivity" />
         <activity android:name=".viewpager_appbarlayout_tablayout.TestTab2Activity" />
         <activity android:name=".zdybehavior.TestBehavior1Activity" />
-        <activity android:name=".zdybehavior.TestBehavior2Activity"></activity>
+        <activity android:name=".zdybehavior.TestBehavior2Activity" />
+        <activity android:name=".propertyAnimation.TestPropertyAnimaActivity"></activity>
     </application>
 
 </manifest>

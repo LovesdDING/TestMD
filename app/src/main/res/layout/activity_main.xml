@@ -52,6 +52,12 @@
                 android:layout_height="wrap_content"
                 android:text="自定义behavior2"
                 />
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="测试动画效果1"
+                />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
