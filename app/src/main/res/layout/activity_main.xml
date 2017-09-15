@@ -70,6 +70,12 @@
                 android:layout_height="wrap_content"
                 android:text="属性动画 支付宝+safari效果"
                 />
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="观察者 订阅者简单示例"
+                />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

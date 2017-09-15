@@ -24,7 +24,8 @@
         <activity android:name=".zdybehavior.TestBehavior2Activity" />
         <activity android:name=".propertyAnimation.TestPropertyAnimaActivity" />
         <activity android:name=".MDAnimation.TestMDAnimActivity" />
-        <activity android:name=".propertyAnim_safari.TestSafariAnimActivity"></activity>
+        <activity android:name=".propertyAnim_safari.TestSafariAnimActivity" />
+        <activity android:name=".Testrvjava.TestClientActivity"></activity>
     </application>
 
 </manifest>
