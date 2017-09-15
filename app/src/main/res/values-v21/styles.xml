@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--colorButtonNormal  5.0 以上 按钮背景色
+       colorControlHighlight   5.0 以上 按钮按下时的颜色  Theme.AppCompat.Light.NoActionBar
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorControlHighlight">@color/bg2_blue</item>
+        <!--<item name="android:colorButtonNormal">@color/bg1_green</item>-->
+
+    </style>
+</resources>

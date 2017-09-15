@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="patient.yilin.com.testmd.propertyAnim_safari.TestSafariAnimActivity">
+
+    <LinearLayout
+        android:id="@+id/salayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/icon_2"
+        >
+        <TextView
+            android:id="@+id/satv1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="显示"
+            android:gravity="center"
+            android:background="@color/bg2_blue"
+            android:onClick="startShow"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/saiv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startHide"
+        android:src="@mipmap/icon_1"
+        android:visibility="invisible"
+        android:scaleType="fitEnd"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

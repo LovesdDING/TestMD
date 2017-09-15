@@ -22,7 +22,9 @@
         <activity android:name=".viewpager_appbarlayout_tablayout.TestTab2Activity" />
         <activity android:name=".zdybehavior.TestBehavior1Activity" />
         <activity android:name=".zdybehavior.TestBehavior2Activity" />
-        <activity android:name=".propertyAnimation.TestPropertyAnimaActivity"></activity>
+        <activity android:name=".propertyAnimation.TestPropertyAnimaActivity" />
+        <activity android:name=".MDAnimation.TestMDAnimActivity" />
+        <activity android:name=".propertyAnim_safari.TestSafariAnimActivity"></activity>
     </application>
 
 </manifest>

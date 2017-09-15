@@ -58,6 +58,18 @@
                 android:layout_height="wrap_content"
                 android:text="测试动画效果1"
                 />
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="测试MD动画效果"
+                />
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="属性动画 支付宝+safari效果"
+                />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

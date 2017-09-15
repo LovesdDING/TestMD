@@ -5,8 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import patient.yilin.com.testmd.MDAnimation.TestMDAnimActivity;
 import patient.yilin.com.testmd.fab2behavior.TestRec2fabActivity;
 import patient.yilin.com.testmd.parallel.TestparellelActivity;
+import patient.yilin.com.testmd.propertyAnim_safari.TestSafariAnimActivity;
 import patient.yilin.com.testmd.propertyAnimation.TestPropertyAnimaActivity;
 import patient.yilin.com.testmd.viewpager_appbarlayout_tablayout.TestTab2Activity;
 import patient.yilin.com.testmd.viewpager_appbarlayout_tablayout.TestTabActivity;
@@ -67,6 +69,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,TestPropertyAnimaActivity.class));
+            }
+        });
+        findViewById(R.id.btn7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,TestMDAnimActivity.class));
+            }
+        });
+        findViewById(R.id.btn8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,TestSafariAnimActivity.class));
             }
         });
     }

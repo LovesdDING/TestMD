@@ -7,5 +7,9 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-   <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+   <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorControlHighlight">@color/bg2_blue</item>
+       <item name="android:colorButtonNormal">@color/bg1_green</item>
+
+   </style>
 </resources>
