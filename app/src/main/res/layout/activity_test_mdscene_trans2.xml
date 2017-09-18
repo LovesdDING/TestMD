@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="patient.yilin.com.testmd.MDzhuanchangAnimation.TestMDSceneTrans2Activity">
+
+    <ImageView
+        android:id="@+id/mdtransiv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:transitionName="iv_meinv3"
+        android:src="@mipmap/meinv3"
+        />
+    <TextView
+        android:id="@+id/mdtranstv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈哈哈哈  根本控制不住"
+        android:layout_centerInParent="true"
+        android:transitionName="tv"
+        />
+    <Button
+        android:id="@+id/mdtransbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是第二个activity，跳转第一个activity"
+        android:onClick="back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:transitionName="bt"
+        />
+</RelativeLayout>

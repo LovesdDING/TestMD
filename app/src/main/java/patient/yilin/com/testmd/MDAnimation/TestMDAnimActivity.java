@@ -43,7 +43,7 @@ public class TestMDAnimActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Animator animator  = ViewAnimationUtils.createCircularReveal(mdbtn2,   //作用的View
-                                0,0,  //centerX centerY  扩散的中心店
+                                0,0,  //centerX centerY  扩散的中心点
                                 0,  //扩散开始的半径
                                 (float) Math.hypot(mdbtn2.getWidth(),mdbtn2.getHeight())     //扩散最终的半径
                                ) ;

@@ -25,7 +25,11 @@
         <activity android:name=".propertyAnimation.TestPropertyAnimaActivity" />
         <activity android:name=".MDAnimation.TestMDAnimActivity" />
         <activity android:name=".propertyAnim_safari.TestSafariAnimActivity" />
-        <activity android:name=".Testrvjava.TestClientActivity"></activity>
+        <activity android:name=".Testrvjava.TestClientActivity" />
+        <activity android:name=".MDzhuanchangAnimation.TestMDSceneTransActivity" />
+        <activity android:name=".MDzhuanchangAnimation.TestMDSceneTrans2Activity" />
+        <activity android:name=".MDzhuanchangAnimation.TestMDToolBarActivity" />
+        <activity android:name=".MDzhuanchangAnimation.TestMDToolBar2Activity"></activity>
     </application>
 
 </manifest>

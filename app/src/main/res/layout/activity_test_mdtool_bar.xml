@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="patient.yilin.com.testmd.MDzhuanchangAnimation.TestMDToolBarActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mdtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        app:title="珊瑚海"
+        app:titleTextColor="#ff0"
+        app:navigationIcon="@mipmap/ic_favorite_outline_white_24dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        ></android.support.v7.widget.Toolbar>
+    
+     <ImageView
+         android:id="@+id/mdiv1"
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:src="@mipmap/aaa"
+         android:scaleType="centerCrop"
+         android:transitionName="ivfj"
+         />
+    <Button
+        android:id="@+id/mdbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一个activity"
+        android:transitionName="mdbtn"
+        android:layout_below="@id/mdiv1"
+        android:onClick="goNext"
+        />
+</LinearLayout>

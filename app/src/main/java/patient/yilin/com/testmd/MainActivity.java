@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import patient.yilin.com.testmd.MDAnimation.TestMDAnimActivity;
+import patient.yilin.com.testmd.MDzhuanchangAnimation.TestMDSceneTransActivity;
+import patient.yilin.com.testmd.MDzhuanchangAnimation.TestMDToolBarActivity;
 import patient.yilin.com.testmd.Testrvjava.TestClientActivity;
 import patient.yilin.com.testmd.fab2behavior.TestRec2fabActivity;
 import patient.yilin.com.testmd.parallel.TestparellelActivity;
@@ -89,6 +91,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,TestClientActivity.class));
+            }
+        });
+        findViewById(R.id.btn10).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,TestMDSceneTransActivity.class));
+            }
+        });
+        findViewById(R.id.btn11).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,TestMDToolBarActivity.class));
             }
         });
     }
