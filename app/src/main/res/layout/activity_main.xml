@@ -88,6 +88,12 @@
                 android:layout_height="wrap_content"
                 android:text="MD转场动画+ToolBar"
                 />
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="SVG测试使用"
+                />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

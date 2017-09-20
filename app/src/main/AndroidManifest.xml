@@ -29,7 +29,8 @@
         <activity android:name=".MDzhuanchangAnimation.TestMDSceneTransActivity" />
         <activity android:name=".MDzhuanchangAnimation.TestMDSceneTrans2Activity" />
         <activity android:name=".MDzhuanchangAnimation.TestMDToolBarActivity" />
-        <activity android:name=".MDzhuanchangAnimation.TestMDToolBar2Activity"></activity>
+        <activity android:name=".MDzhuanchangAnimation.TestMDToolBar2Activity" />
+        <activity android:name=".svg.TestSVGActivity"></activity>
     </application>
 
 </manifest>
